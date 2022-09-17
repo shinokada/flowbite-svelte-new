@@ -1,7 +1,16 @@
 {
-	"name": "flowbite-svelte-new",
-	"version": "0.0.1",
-	"private": true,
+	"name": "flowbite-svelte",
+	"version": "0.26.20",
+	"description": "Flowbite components for Svelte",
+	"main": "index.js",
+	"author": {
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/themesberg/flowbite-svelte/issues",
+	"homepage": "https://flowbite-svelte.com/",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -40,9 +49,58 @@
 		"vite": "^3.1.0"
 	},
 	"type": "module",
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"tailwindcss",
+		"flowbite",
+		"ui",
+		"accordion",
+		"alert",
+		"avatar",
+		"badge",
+		"breadcrumb",
+		"button-group",
+		"button",
+		"card",
+		"carousel",
+		"darkmode",
+		"dropdown",
+		"footer",
+		"forms",
+		"kbd",
+		"list group",
+		"mega menu",
+		"modal",
+		"navbar",
+		"pagination",
+		"progressbar",
+		"rating",
+		"sidebar",
+		"skeleton",
+		"spinner",
+		"table",
+		"tab",
+		"timeline",
+		"toast",
+		"tooltip",
+		"typography",
+		"video"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/themesberg/flowbite-svelte"
+	},
 	"dependencies": {
 		"@popperjs/core": "^2.11.6",
 		"classnames": "^2.3.2",
 		"flowbite": "^1.5.3"
-	}
+	},
+	"contributors": [
+		"Zoltán Szőgyényi <zoltan@themesberg.com>",
+		"Robert Tanislav <robert@themesberg.com>",
+		"Victor Cordos <victor@themesberg.com>",
+		"Shinichi Okada <okada.shin@gmail.com>",
+		"Jakub Jagielka <jjagielka@gmail.com>"
+	]
 }
